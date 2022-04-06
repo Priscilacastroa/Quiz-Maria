@@ -10,22 +10,43 @@
   </head>
 
   <body>
-    
-        <header>
-            <h1>Quiz Maria Apenas Aguenta</h1>
-        </header>
+        <div class="projeto">
+      
 
-        <section>
-        <div>
+        <section class="box_branco">
+            <header>
+                <h1>Quiz Maria Apenas Aguenta</h1>
+            </header>
+            <div class="wrapper_pergunta">
             <h2 id="pergunta">Pergunta</h2>
-               <input id="op1" type= "radio">Opção 1</input>
-               <p id="op2">Opção 2</p>
-               <p id="op3">Opção 3</p>
-               <p id="info">Informações</p>
-         </div>
+
+                <div class="wrapper">
+                    <div>
+                        <input type="radio"  name="pergunta" value="op1"/>
+                        <label id="op1"></label>
+                    </div>
+                    <div>
+                        <input type="radio"  name="pergunta" value="op2"/>
+                        <label id="op2"></label>
+                    </div>
+                    <div>
+                        <input type="radio" name="pergunta" value="op3"/>
+                        <label id="op3"></label>
+                    </div>
+                    <p id="info">Informações</p>
+                    <button class="botao">Confirmar</button>
+                </div>
+
+
+                
+            </div>
         </section>
-    
-        <button>Confirmar</button>
+        <section class="letra">
+            Letra
+
+
+        </section>
+    </div>
 
     <script src="./arrayobjeto.js"></script>
     <script src="./quiz.js"></script>

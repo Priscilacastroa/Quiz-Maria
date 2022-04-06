@@ -1,13 +1,13 @@
 //Só class, regras do jogo, aqui deixo tudo preparado
 
 class Quiz {
-    constructor (){
+    constructor () {
         this.perguntas = [...todasPerguntas] //copiando essa array e transformando nessa variável
         this.perguntaAtual = 0
     }
- 
+  
     imprimirPergunta() {
-      return this.perguntas[this.perguntaAtual];
+    return this.perguntas[this.perguntaAtual];
     }
 
     proximaPergunta() {
