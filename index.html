@@ -1,12 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Maria apenas aguenta</title>
-</head>
-<body>
-    <script src = "./indextest.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Maria Apenas Aguenta</title>
+    <link href="./style/style.css" rel="stylesheet" />
+    
+  </head>
+
+  <body>
+
+
+        <div class="projeto">
+      
+            <img src="./imagens/silhueta feminina cortada.png" alt="silhueta feminina" class="img">
+        <section class="box_branco">
+            <header>
+                
+                <h1>Quiz Maria Apenas Aguenta</h1>
+            </header>
+            <div class="wrapper_pergunta">
+            <h2 id="pergunta">Pergunta</h2>
+
+                <div class="wrapper">
+                    <div>
+                        <input type="radio" class="alt" name="alter" value="op1"/>
+                        <label id="op1"></label>
+                    </div>
+                    <div>
+                        <input type="radio" class="alt"  name="alter" value="op2"/>
+                        <label id="op2"></label>
+                    </div>
+                    <div>
+                        <input type="radio" class="alt"   name="alter" value="op3"/>
+                        <label id="op3"></label>
+                    </div>
+                    <p id="info"></p>
+                    <button onclick=novoQuiz.validarPergunta() class="botao"></button>
+                    <button onclick=proxPergunta() id="botao_proximo" class="botao_proxima">Próxima Pergunta</button>
+                </div>
+
+
+                
+            </div>
+        </section>
+        <section class="letra" id="letra">
+            <p>"Maria, Maria, é o som, é a cor, é o suor</p>
+            <p>É a dose mais forte e lenta</p>
+            <p>De uma gente que ri quando deve chorar</p>
+            <p>E não vive, apenas aguenta</p>
+
+            <p>Mas é preciso ter força, é preciso ter raça</p>
+            <p>É preciso ter gana sempre</p>
+            <p>Quem traz no corpo a marca, Maria, Maria</p>
+            <p>Mistura a dor e a alegria"</p>
+            
+        <div class="final_letra">
+            <p>Música: Maria Maria</p>
+            <p>Compositores:</p>
+            <p>Milton Silva Campos Do Nascimento</p>
+            <p>Fernando Brant</p>
+        </div>
+
+        </section>
+    </div>
+
+<section id="finalizado">
+    teste
+</section>
+
+    <script src="./arrayobjeto.js"></script>
+    <script src="./quiz.js"></script>
+    <script src="./index.js"></script>
+  </body>
 </html>
