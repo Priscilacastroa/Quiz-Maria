@@ -1,10 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+
+
 body {
     background: #9CC1FF;
     font-family: 'Heebo', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    align-items: center;
+    justify-content: center;
 }
 
 .wrapper_pergunta {
     background-color: white;
+    margin-left: 163px;
+    margin-top: 76px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-bottom-width: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
 }
 
 .projeto {
@@ -12,10 +29,13 @@ body {
 }
 
 .box_branco {
-    width: 70%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
 }
 
 .letra {
+    font-family: 'Beau Rivage', cursive;
     width: 30%;
     background-color: white;
     position: fixed;
@@ -24,5 +44,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+    flex-direction: column;
+} 
 
+
+.letra p {
+    margin: 4px;
+    font-size: 20px;
+}

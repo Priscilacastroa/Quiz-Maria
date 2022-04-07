@@ -5,8 +5,8 @@ const todasPerguntas = [
       pergunta: "Maria Eduarda foi estuprada quando saia de casa para trabalhar por volta das 5h da manhã de uma segunda-feira. Você faz ideia da média de estupros registrados no Brasil no ano de 2021?",
       alternativas: ["Um estupro a cada oito horas.", "Um estupro a cada duas horas.", "Um estupro a cada dez minutos.",],
       respostaCorreta: "Um estupro a cada dez minutos.",
-      informaçãoAcerto: "Você acertou. Infelizmente, a média em 2021 foi de 1 estupro a cada 10 minutos. Houve aumento de 3,7% em relação a 2020, segundo Fórum Brasileiro de Segurança Pública. Foram 56 mil casos, incluindo estupros de meninas menores de 14 anos, ou mulheres incapazes de consentir ou de oferecer resistência.",
-      informaçãoErro: "Você errou. Infelizmente, a média em 2021 foi de 1 estupro a cada 10 minutos. Houve aumento de 3,7% em relação a 2020, segundo Fórum Brasileiro de Segurança Pública. Foram 56 mil casos, incluindo estupros de meninas menores de 14 anos, ou mulheres incapazes de consentir ou de oferecer resistência.",
+      informacaoAcerto: "Você acertou. Infelizmente, a média em 2021 foi de 1 estupro a cada 10 minutos. Houve aumento de 3,7% em relação a 2020, segundo Fórum Brasileiro de Segurança Pública. Foram 56 mil casos, incluindo estupros de meninas menores de 14 anos, ou mulheres incapazes de consentir ou de oferecer resistência.",
+      informacaoErro: "Você errou. Infelizmente, a média em 2021 foi de 1 estupro a cada 10 minutos. Houve aumento de 3,7% em relação a 2020, segundo Fórum Brasileiro de Segurança Pública. Foram 56 mil casos, incluindo estupros de meninas menores de 14 anos, ou mulheres incapazes de consentir ou de oferecer resistência.",
     },
     {
       pergunta: "Maria do Carmo entrou para o índice de feminicídio, foi morta a facadas por seu ex companheiro após ser vista com um novo namorado. Quantas mulheres você acredita que morreram em 2021 devido ao feminicídio?", 

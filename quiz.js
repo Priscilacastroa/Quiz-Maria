@@ -12,7 +12,7 @@ class Quiz {
     }
 
     proximaPergunta() {
-    this.perguntaAtual++
+        this.perguntaAtual+= 1;
     }
 
   //comparar a escolha dos jogadores com a resposta certa
@@ -21,8 +21,36 @@ class Quiz {
           
     
     }
+     
+    validarPergunta() {
+        let options = document.querySelectorAll("input[type=radio]");
+        let optionEscolhido = ""
+        for (let i = 0; i < options.length; i++) {
+           if(options[i].checked){
+               optionEscolhido = this.perguntas[this.perguntaAtual].alternativas[i];
+            }
+            if(optionEscolhido === this.perguntas[this.perguntaAtual].respostaCorreta) {
+                console.log("acertou") 
+                this.mostrarInformacao("correta")
+            } else {
+             console.log("errou")
+                this.mostrarInformacao("errada")
+        }
 
+        }
+        
+    }
 
+    mostrarInformacao(informacao) {
+        let info = document.getElementById("info");
+        if(informacao === "correta") {
+         info.innerText = this.perguntas[this.perguntaAtual].informacaoAcerto;
+        }else {
+        info.innerText = this.perguntas[this.perguntaAtual].informacaoErro;
+        }
+    }
 
 }
+
+
 
