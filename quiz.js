@@ -1,13 +1,14 @@
 //Só class, regras do jogo, aqui deixo tudo preparado
 
 class Quiz {
-    constructor () {
+    constructor (){
         this.perguntas = [...todasPerguntas] //copiando essa array e transformando nessa variável
         this.perguntaAtual = 0
+        this.pontos = 0
     }
-  
+
     imprimirPergunta() {
-    return this.perguntas[this.perguntaAtual];
+      return this.perguntas[this.perguntaAtual];
     }
 
     proximaPergunta() {
@@ -17,8 +18,11 @@ class Quiz {
   //comparar a escolha dos jogadores com a resposta certa
     checarResposta(escolhaJogador) {
         if(this.perguntas[this.perguntaAtual].respostaCorreta === escolhaJogador);
+          
+    
     }
-       
+
+
 
 }
 
