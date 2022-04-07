@@ -2,20 +2,26 @@
 
 
 body {
-    background: #9CC1FF;
+    background: #EBC5D0;
     font-family: 'Heebo', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 h1 {
-    align-items: center;
-    justify-content: center;
+    background-color: #BF958F;
+    color:white;
+    border-top-width: 10px;
+    padding-top: 10px;
+    padding-left: 90px;
+    padding-bottom: 10px;
+    font-size: 30px;
+
 }
 
 .wrapper_pergunta {
-    background-color: white;
-    margin-left: 163px;
+    background-color: #F8F6F1;
+    margin-left: 190px;
     margin-top: 76px;
     padding-left: 20px;
     padding-top: 20px;
@@ -35,20 +41,70 @@ h1 {
 }
 
 .letra {
+    font-size: 25px;
     font-family: 'Beau Rivage', cursive;
     width: 30%;
-    background-color: white;
+    background-color: #EBC5D0;
     position: fixed;
-    right: 0;
+    right: 120px;
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
     flex-direction: column;
+    opacity : 0.3;
+    font-weight: bold
 } 
 
 
 .letra p {
     margin: 4px;
-    font-size: 20px;
+   
 }
+
+.final_letra {
+    font-weight: normal;
+    margin-bottom: 4px;
+    margin-top: 30px;
+    margin-left: 110px;
+    font-size: 15px;
+    font-weight: bold
+    }
+
+.esconder {
+    display: none;
+}
+
+.finalizado {
+    font-size: 25px;
+    font-family: 'Heebo', sans-serif;
+    width: 30%;
+    background-color: #EBC5D0;
+    color: #7A3900;
+    position: fixed;
+    right: 120px;
+    height: 100%;
+    top: 15%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold
+}
+ 
+
+.botao_proxima {
+  background-color: #BF958F;
+    color:white;
+} 
+
+
+.img {
+    position: absolute;
+    top: 213px;
+    opacity: 1.1;
+}
+
+
+
+

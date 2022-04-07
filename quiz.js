@@ -12,7 +12,7 @@ class Quiz {
     }
 
     proximaPergunta() {
-        this.perguntaAtual+= 1;
+        this.perguntaAtual++;
     }
 
   //comparar a escolha dos jogadores com a resposta certa
@@ -32,15 +32,30 @@ class Quiz {
             if(optionEscolhido === this.perguntas[this.perguntaAtual].respostaCorreta) {
                 console.log("acertou") 
                 this.mostrarInformacao("correta")
+                this.pontos++;
             } else {
-             console.log("errou")
                 this.mostrarInformacao("errada")
         }
+            console.log(this.pontos)
 
         }
-        
+        if(this.perguntaAtual === 2) {
+            letra.classList.add("esconder")
+            finalizado.classList.add("finalizado")
+            console.log(this.pontos)
+            if(this.pontos === 0) {
+            finalizado.innerText =  this.perguntas[3].ponto0
+            } else if (this.pontos === 1) {
+            finalizado.innerText =  this.perguntas[3].ponto1
+            } else if(this.pontos === 4) {
+            finalizado.innerText =  this.perguntas[3].ponto2
+            } else if(this.pontos === 7) {
+            finalizado.innerText =  this.perguntas[3].ponto3
+            }
+        }
     }
 
+    
     mostrarInformacao(informacao) {
         let info = document.getElementById("info");
         if(informacao === "correta") {
@@ -50,6 +65,7 @@ class Quiz {
         }
     }
 
+   
 }
 
 
