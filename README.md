@@ -4,9 +4,9 @@
 Despertar nas pessoas um incômodo e a consciência sobre a situação que vivemos, partindo assim, para boas atitudes e boas ideias.
 
 **Como jogar:**
-São 3 perguntas.
-Clique na resposta escolhida e confirme.
-Para passar para a próxima pergunta, basta clicar em "próxima pergunta".
+- São 3 perguntas.
+- Clique na resposta escolhida e confirme.
+- Para passar para a próxima pergunta, basta clicar em "próxima pergunta".
 
 ## Liks:
 
