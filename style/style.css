@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
 
 body {
     background: #EBC5D0;
@@ -10,24 +10,43 @@ body {
 
 h1 {
     background-color: #BF958F;
-    color:white;
+    color: white;
     border-top-width: 10px;
     padding-top: 10px;
-    padding-left: 90px;
+    padding-left: 150px;
     padding-bottom: 10px;
-    font-size: 30px;
+    font-size: 35px;
+    margin-right: 108px;
+    text-align: justify;
+    margin-bottom: 0px;
+    height: 36px;
+}
 
+h2 {
+    font-size: 20px;
+    color: #383838; 
+}
+
+label {
+    font-size: 16px;  
+}
+
+.info {
+    color: #80392a;
+    font-weight: bold;
 }
 
 .wrapper_pergunta {
-    background-color: #F8F6F1;
-    margin-left: 190px;
+    background-color: #FFEDE1;
+    text-align: justify;
+    margin-left: 220px;
     margin-top: 76px;
     padding-left: 20px;
     padding-top: 20px;
     border-bottom-width: 20px;
     padding-bottom: 20px;
     padding-right: 20px;
+    box-shadow: 10px 5px 5px #0000005e;
 }
 
 .projeto {
@@ -35,7 +54,7 @@ h1 {
 }
 
 .box_branco {
-    width: 50%;
+    width: 60%;
     align-items: center;
     justify-content: center;
 }
@@ -46,7 +65,7 @@ h1 {
     width: 30%;
     background-color: #EBC5D0;
     position: fixed;
-    right: 120px;
+    right: 50px;
     height: 100%;
     display: flex;
     align-items: baseline;
@@ -76,28 +95,43 @@ h1 {
 }
 
 .finalizado {
-    font-size: 25px;
-    font-family: 'Heebo', sans-serif;
-    width: 30%;
-    background-color: #EBC5D0;
-    color: #7A3900;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Oxygen', sans-serif;
+    width: 15%;
+    border-width: 138px;
+    background-color: #80392a;
+    color: white;
     position: fixed;
-    right: 120px;
+    right: 165px;
     height: 100%;
-    top: 15%;
+    top: 0%;
     display: flex;
-    align-items: baseline;
     justify-content: center;
     flex-direction: column;
-    font-weight: bold
+    font-weight: bold;
+    padding-left: 40px;
+    border-right-width: 40px;
+    padding-right: 40px;
+    text-align: justify;
 }
+
  
 
 .botao_proxima {
-  background-color: #BF958F;
-    color:white;
+    background-color: #BF958F;
+    color:rgb(249, 243, 243);
+    margin-left: 100px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
 } 
 
+.botao {
+    color:rgb(45, 24, 24);
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    background-color:#f1dad9
+}
 
 .img {
     position: absolute;
@@ -105,6 +139,16 @@ h1 {
     opacity: 1.1;
 }
 
+.linha {
+    height: 50px;
+}
+
+audio {
+    width: 250px;
+    height: 250px;
+    margin-left: 200px;
+    opacity: 0.7;
+}
 
 
 
