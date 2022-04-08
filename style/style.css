@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
 
 body {
-    background: #EBC5D0;
+    background: #EFD0CD;
     font-family: 'Heebo', sans-serif;
     margin: 0;
     padding: 0;
@@ -20,6 +20,7 @@ h1 {
     text-align: justify;
     margin-bottom: 0px;
     height: 36px;
+    border-bottom: 7px solid #6d433a;
 }
 
 h2 {
@@ -63,7 +64,7 @@ label {
     font-size: 25px;
     font-family: 'Beau Rivage', cursive;
     width: 30%;
-    background-color: #EBC5D0;
+    background-color: #EFD0CD;
     position: fixed;
     right: 50px;
     height: 100%;
@@ -95,7 +96,7 @@ label {
 }
 
 .finalizado {
-    font-size: 20px;
+    font-size: 19px;
     line-height: 1.5;
     font-family: 'Oxygen', sans-serif;
     width: 15%;
@@ -145,7 +146,7 @@ label {
 
 audio {
     width: 250px;
-    height: 250px;
+    height: 280px;
     margin-left: 200px;
     opacity: 0.7;
 }
