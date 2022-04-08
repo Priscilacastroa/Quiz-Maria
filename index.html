@@ -19,6 +19,7 @@
             <header>
                 
                 <h1>Quiz Maria Apenas Aguenta</h1>
+                <img src="./imagens/linha marrom.png" alt="linha" class="linha">
             </header>
             <div class="wrapper_pergunta">
             <h2 id="pergunta">Pergunta</h2>
@@ -36,7 +37,7 @@
                         <input type="radio" class="alt"   name="alter" value="op3"/>
                         <label id="op3"></label>
                     </div>
-                    <p id="info"></p>
+                    <p class="info" id="info"></p>
                     <button onclick=novoQuiz.validarPergunta() class="botao"></button>
                     <button onclick=proxPergunta() id="botao_proximo" class="botao_proxima">Próxima Pergunta</button>
                 </div>
@@ -67,11 +68,13 @@
     </div>
 
 <section id="finalizado">
-    teste
+    
 </section>
 
     <script src="./arrayobjeto.js"></script>
     <script src="./quiz.js"></script>
     <script src="./index.js"></script>
+
+    <audio src="./midia/Elis Regina - Maria Maria.mp3" controls autoplay></audio>
   </body>
 </html>
