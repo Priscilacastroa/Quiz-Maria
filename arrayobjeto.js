@@ -24,7 +24,7 @@ const todasPerguntas = [
       informacaoErro: "Você errou. infelizmente a pobreza menstrual existe. 713 mil meninas vivem sem acesso a banheiro ou chuveiro em seu domicílio. Outras 4 milhões não têm acesso a itens mínimos de cuidados menstruais nas escolas, como absorventes, sabonetes ou mesmo banheiro ou chuveiro em seu domicílio. Muitas acabam recorrendo ao uso de materiais inapropriados para conter o fluxo, como panos, restos de jornal, papel higiênico e até miolo de pão, aumentando o risco de doenças e infecções."
     },
     {
-     ponto0: "Você errou todas as quesões. Use isso como uma oportunidade de se atentar mais a questões humanas. Converse com mulheres sobre isso, se informe mais.",
+     ponto0: "Você errou todas as questões. Use isso como uma oportunidade de se atentar mais a questões humanas. Converse com mulheres sobre isso, se informe mais.",
      ponto1: "Você acertou 1 pergunta. De qualquer forma, este quiz não tem vencedores, mas se você sentiu empatia por todas as Marias do Brasil, o quiz foi concluído com sucesso.",
      ponto2: "Você acertou 2 perguntas. De qualquer forma, este quiz não tem vencedores, mas se você sentiu empatia por todas as Marias do Brasil, o quiz foi concluído com sucesso.",
      ponto3: "Você acertou 3 perguntas. De qualquer forma, este quiz não tem vencedores, mas se você sentiu empatia por todas as Marias do Brasil, o quiz foi concluído com sucesso."
